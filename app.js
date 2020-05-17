@@ -11,8 +11,8 @@ const port = 3000
 
 const pushSubscription = { "endpoint": "https://fcm.googleapis.com/fcm/send/dspg8y0EvS0:APA91bEA1S-yV7JRbyeTBlk2BLe_EMyqNk76r0M5l_V01xUIUjIbSUTyH5eiQZrGaKqnq9l744QvonGVsBcBPwiUpx0FzQ2NxJOwkZtvsgdl0N52MAnmPl__kG1mubyNlNKA5mLqTCXa", "expirationTime": null, "keys": { "p256dh": "BLW_peOgcZkv6j9UDTWTIhLVBvzTTnMIM3xbCbulkrgM2nCbxvtpWdi740nnDc0x6aoqHMUxDw_CC_rcYy-5v1c", "auth": "ohoukW8qL-lrih8GwPBHIA" } };
 
-const vapidPublicKey = '';
-const vapidPrivateKey = '';
+const vapidPublicKey = 'BHQ9RlQ3EH5PTn3hDcN-5LKXmeBbtv5Aup4rvYaiE3DkLmrIZmUiS0moyK5hByu3Akf3Yf5nvc6nKePZm7DuF8U';
+const vapidPrivateKey = 'GkmMjS1lhmwyoFzOIq0uoVWqdyDJmEMnosNHp9DNtgw';
 
 const options = {
     TTL: 60,
